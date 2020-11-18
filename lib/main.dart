@@ -11,6 +11,9 @@ class SportStoreApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Sport Store',
+      enableLog: true,
+      debugShowCheckedModeBanner: false,
+      // theme: ThemeData(primarySwatch: Colors.teal),
       home: Welcome(),
     );
   }
